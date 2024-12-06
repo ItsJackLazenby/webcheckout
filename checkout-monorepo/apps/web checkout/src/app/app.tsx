@@ -1,13 +1,21 @@
-// Uncomment this line to use CSS modules
-// import styles from './app.module.scss';
-import NxWelcome from './nx-welcome';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import LandingPage from '../pages/landing-page';
+import ProductPage from '../pages/product-page';
 
-export function App() {
+
+const App: React.FC = () => {
   return (
-    <div>
-      <NxWelcome title="web checkout" />
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          {/* Define the routes here */}
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/product/:id" element={<ProductPage />} />
+        </Routes>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;

@@ -8,10 +8,10 @@ export default defineConfig({
       cypressDir: 'src',
       bundler: 'vite',
       webServerCommands: {
-        default: 'npx nx run web checkout:serve',
-        production: 'npx nx run web checkout:preview',
+        default: 'npx nx run web-checkout:serve',
+        production: 'npx nx run web-checkout:preview',
       },
-      ciWebServerCommand: 'npx nx run web checkout:preview',
+      ciWebServerCommand: 'npx nx run web-checkout:preview',
       ciBaseUrl: 'http://localhost:4300',
     }),
     baseUrl: 'http://localhost:4200',
