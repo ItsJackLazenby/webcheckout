@@ -17,3 +17,13 @@ Submit order to the backend for processing.
 
 **Payment Integration:**
 Integrate a payment gateway like Stripe or PayPal.
+
+# Tech Stack
+
+- React Front End
+- Python Back End
+- Nx Monorepo
+- Jest Unit Testing
+- Cypress E2E Tests
+- Built for use with Github Action CI workflow
+- 
