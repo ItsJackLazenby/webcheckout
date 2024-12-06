@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\checkout-monorepo",
+    "\\checkout-monorepo\\apps",
+    "\\checkout-monorepo\\apps\\backend",
+    "\\checkout-monorepo\\apps\\backend\\api"
+  ],
+  "PreviewInSolutionExplorer": false
+}
